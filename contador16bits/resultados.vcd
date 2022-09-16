@@ -1,9 +1,5 @@
 $date
-<<<<<<< HEAD
-	Tue Sep 13 09:05:22 2022
-=======
-	Tue Sep 13 09:07:28 2022
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
+	Fri Sep 16 07:05:34 2022
 $end
 $version
 	Icarus Verilog
@@ -11,7 +7,6 @@ $end
 $timescale
 	1ns
 $end
-<<<<<<< HEAD
 $scope module tarea1tb2 $end
 $var wire 2 ! modo [1:0] $end
 $var wire 1 " enb $end
@@ -64,38 +59,11 @@ $var reg 16 B D [15:0] $end
 $var reg 1 # clk $end
 $var reg 1 " enb $end
 $var reg 2 C modo [1:0] $end
-=======
-$scope module tarea1tb $end
-$var wire 2 ! modo [1:0] $end
-$var wire 1 " enb $end
-$var wire 1 # clk $end
-$var wire 1 $ a $end
-$var wire 1 % RCO $end
-$var wire 4 & Q [3:0] $end
-$var wire 4 ' D [3:0] $end
-$scope module U0 $end
-$var wire 2 ( modo [1:0] $end
-$var wire 1 " enb $end
-$var wire 1 # clk $end
-$var wire 4 ) D [3:0] $end
-$var reg 4 * Q [3:0] $end
-$var reg 1 % RCO $end
-$var reg 1 $ a $end
-$upscope $end
-$scope module senales $end
-$var wire 4 + Q [3:0] $end
-$var wire 1 % RCO $end
-$var reg 4 , D [3:0] $end
-$var reg 1 # clk $end
-$var reg 1 " enb $end
-$var reg 2 - modo [1:0] $end
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-<<<<<<< HEAD
 bx C
 b0 B
 bx A
@@ -136,30 +104,11 @@ $end
 bx0 %
 bx0 @
 0+
-=======
-b0 -
-b0 ,
-bx +
-bx *
-b0 )
-b0 (
-b0 '
-bx &
-x%
-x$
-0#
-0"
-b0 !
-$end
-#5
-0%
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 1"
 #10
 0#
 #15
-<<<<<<< HEAD
 b0 <
 b0 6
 b0 0
@@ -203,188 +152,102 @@ b1 *
 b1110 $
 b1110 A
 0,
-=======
-b0 &
-b0 *
-b0 +
-1$
-1#
-b11 !
-b11 (
-b11 -
-#20
-0#
-b0 !
-b0 (
-b0 -
-#25
-b1 &
-b1 *
-b1 +
-0$
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #30
 0#
 #35
 b10 &
-<<<<<<< HEAD
 b10 ?
 b10 *
-=======
-b10 *
-b10 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #40
 0#
 #45
 b11 &
-<<<<<<< HEAD
 b11 ?
 b11 *
-=======
-b11 *
-b11 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #50
 0#
 #55
 b100 &
-<<<<<<< HEAD
 b100 ?
 b100 *
-=======
-b100 *
-b100 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #60
 0#
 #65
 b101 &
-<<<<<<< HEAD
 b101 ?
 b101 *
-=======
-b101 *
-b101 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #70
 0#
 #75
 b110 &
-<<<<<<< HEAD
 b110 ?
 b110 *
-=======
-b110 *
-b110 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #80
 0#
 #85
 b111 &
-<<<<<<< HEAD
 b111 ?
 b111 *
-=======
-b111 *
-b111 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #90
 0#
 #95
 b1000 &
-<<<<<<< HEAD
 b1000 ?
 b1000 *
-=======
-b1000 *
-b1000 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #100
 0#
 #105
 b1001 &
-<<<<<<< HEAD
 b1001 ?
 b1001 *
-=======
-b1001 *
-b1001 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #110
 0#
 #115
 b1010 &
-<<<<<<< HEAD
 b1010 ?
 b1010 *
-=======
-b1010 *
-b1010 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #120
 0#
 #125
 b1011 &
-<<<<<<< HEAD
 b1011 ?
 b1011 *
-=======
-b1011 *
-b1011 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #130
 0#
 #135
 b1100 &
-<<<<<<< HEAD
 b1100 ?
 b1100 *
-=======
-b1100 *
-b1100 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #140
 0#
 #145
 b1101 &
-<<<<<<< HEAD
 b1101 ?
 b1101 *
-=======
-b1101 *
-b1101 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #150
 0#
 #155
 b1110 &
-<<<<<<< HEAD
 b1110 ?
 b1110 *
-=======
-b1110 *
-b1110 +
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
 1#
 #160
 0#
 #165
 b1111 &
-<<<<<<< HEAD
 b1111 ?
 b1111 *
 b1 %
@@ -40110,11 +39973,3 @@ b1000 *
 1#
 #50020
 0#
-=======
-b1111 *
-b1111 +
-1%
-1#
-#170
-0#
->>>>>>> e2748cac8d1bdc9c161846ab461f0ac920109342
