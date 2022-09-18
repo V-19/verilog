@@ -1,0 +1,20 @@
+#Script yosys 
+#lee el modulo de verilog
+read_verilog contador16bits.v;
+
+#establece las herarquias de los modulos
+
+hierarchy -check -top contador16bits;
+
+# sintetiza con varios comandos el modulo y lo optimiza
+
+proc; opt; fsm; opt; memory; opt;
+
+#muestra el circuito 
+
+show contador16bits;
+
+#genera el archivo de verilog para correrlo
+
+write_verilog contador16bits_synth1.v;
+

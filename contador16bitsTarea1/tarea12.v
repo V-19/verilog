@@ -36,15 +36,19 @@ always @(posedge clk)begin
         
       //implementacion de una salida a para los demas contadores en paralelo para poder inicializarlos como modo 1 
       //ya que a puede ser RCO o clk dependiendo del modo de los contadores
+      
       if(modo == 2'b11)
         begin
-          a = clk;
+          a <= clk;
         end
       else begin 
-          a = RCO;
+          a <= RCO;
       end
 
+  //  modo1
+ 
 
+    
       if(Q == 4'b1110 && modo == 2'b00 ) begin //cuenta ascendente +1
 
           RCO = 1'b1; // RCO = 1 si se rebasa la cuenta ascendente
@@ -63,6 +67,8 @@ always @(posedge clk)begin
             if((Q == 4'b0011 || Q == 4'b0101 || Q == 4'b0100) && modo == 2'b10) begin //cuenta descendente -3
 
               RCO = 1'b1;// RCO = 1 si se rebasa la cuenta descendente -3 (casos 0,1,2)
+
+              
 
             end else begin 
               RCO = 1'b0;

@@ -1,7 +1,10 @@
  // Se incluyen lo otros modulos 
  
  `include "tarea12.v"
+ //`include "consulta.v"
  `include "probador2.v"
+ //`include "cmos_cells.lib"
+// `include "cmos_cells.v" 
 module tarea1tb2 ();
 wire clk; 
 wire enb;
@@ -11,7 +14,7 @@ wire [3:0][3:0] Q; // de este modo implemento un bus de 4 bits para cada modulo
 wire [3:0] RCO;
 wire [3:0] a; // de este modo implemento un bus de 1 bits para cada modulo
 
-
+//se genera el archivo gtkwave
 initial begin
 
   $dumpfile("resultados.vcd");
