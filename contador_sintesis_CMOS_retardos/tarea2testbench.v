@@ -1,7 +1,7 @@
  // Se incluyen lo otros modulos 
  
  
- `include "contador16bits_synthCMOS.v"
+ `include "contador16bits_synthCMOS_retardos.v"
  `include "probador.v"
  //`include "contador16bits.v"
  `include "cmos_cells.v"

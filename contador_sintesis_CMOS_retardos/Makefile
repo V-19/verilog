@@ -1,5 +1,13 @@
+all:	correr sintesis clean
 
-tarea:	tarea2testbench.v
+
+correr:	
 	iverilog -o prueba tarea2testbench.v
 	vvp prueba
 	gtkwave resultados.vcd
+
+sintesis:
+	yosys -s 1.ys
+	
+clean:
+	rm -f p

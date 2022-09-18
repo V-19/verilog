@@ -15,17 +15,17 @@
  clk = 0;
  enb = 0;
  D = 16'b0;
- #5 enb = 2'b1;
- #5 D = 16'b0;
- #10 modo = 2'b11;
+ #1 enb = 2'b1;
+ #1 D = 16'b1111111111111111;
+ #20 modo = 2'b11;
  //#5 D = 16'b0;
- #5 modo = 2'b00;
- #50000 
+ #20 modo = 2'b01;
+ #500000 
  $finish;
  end
  
  always begin
-  #5  clk =  ! clk;
+  #15 clk =  ! clk;
  end
 
 
