@@ -16,16 +16,16 @@
  enb = 0;
  D = 16'b0;
  #1 enb = 2'b1;
- #1 D = 16'b1111111111111111;
+ #1 D = 16'b0;
  #20 modo = 2'b11;
  //#5 D = 16'b0;
- #20 modo = 2'b01;
+ #40 modo = 2'b00;
  #500000 
  $finish;
  end
  
  always begin
-  #15 clk =  ! clk;
+  #17 clk =  ! clk;
  end
 
 

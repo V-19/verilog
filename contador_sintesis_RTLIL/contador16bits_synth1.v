@@ -3,88 +3,50 @@
 (* src = "cont1.v:1" *)
 module cont1(Q, RCO, clk, enb, modo, D);
   (* src = "cont1.v:23" *)
-  wire [3:0] _000_;
+  wire [3:0] _00_;
   (* src = "cont1.v:23" *)
-  wire _001_;
+  wire _01_;
   (* src = "cont1.v:23" *)
-  wire _002_;
+  wire _02_;
   (* src = "cont1.v:23" *)
-  wire _003_;
+  wire _03_;
   (* src = "cont1.v:23" *)
-  wire _004_;
+  wire _04_;
   (* src = "cont1.v:28" *)
-  (* unused_bits = "4" *)
-  wire [31:0] _005_;
-  wire [1:0] _006_;
-  wire [1:0] _007_;
-  wire [1:0] _008_;
-  wire [1:0] _009_;
-  wire [1:0] _010_;
-  wire [1:0] _011_;
-  wire [1:0] _012_;
-  wire [1:0] _013_;
-  wire [1:0] _014_;
-  wire _015_;
-  wire _016_;
-  wire [3:0] _017_;
-  wire [1:0] _018_;
-  wire _019_;
-  wire _020_;
-  wire _021_;
-  wire _022_;
-  wire _023_;
-  wire _024_;
+  (* unused_bits = "4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31" *)
+  wire [31:0] _05_;
   (* src = "cont1.v:50" *)
-  wire _025_;
+  wire _06_;
   (* src = "cont1.v:50" *)
-  wire _026_;
+  wire _07_;
   (* src = "cont1.v:56" *)
-  wire _027_;
+  wire _08_;
   (* src = "cont1.v:56" *)
-  wire _028_;
+  wire _09_;
   (* src = "cont1.v:65" *)
-  wire _029_;
+  wire _10_;
   (* src = "cont1.v:65" *)
-  wire _030_;
+  wire _11_;
   (* src = "cont1.v:65" *)
-  wire _031_;
+  wire _12_;
   (* src = "cont1.v:50" *)
-  wire _032_;
+  wire _13_;
   (* src = "cont1.v:56" *)
-  wire _033_;
+  wire _14_;
   (* src = "cont1.v:65" *)
-  wire _034_;
+  wire _15_;
   (* src = "cont1.v:65" *)
-  wire _035_;
-  (* src = "cont1.v:31|cont1.v:27|<techmap.v>:432" *)
-  wire [15:0] _036_;
-  (* src = "cont1.v:31|cont1.v:27|<techmap.v>:428" *)
-  wire [3:0] _037_;
-  wire [3:0] _038_;
-  wire _039_;
+  wire _16_;
+  (* src = "cont1.v:65" *)
+  wire _17_;
+  wire [3:0] _18_;
+  wire _19_;
   (* src = "cont1.v:29" *)
   (* unused_bits = "4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31" *)
-  wire [31:0] _040_;
+  wire [31:0] _20_;
   (* src = "cont1.v:30" *)
   (* unused_bits = "4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31" *)
-  wire [31:0] _041_;
-  (* src = "cont1.v:28|<techmap.v>:260|<techmap.v>:203" *)
-  (* unused_bits = "3" *)
-  wire [31:0] _042_;
-  (* src = "cont1.v:31|cont1.v:27|<techmap.v>:445" *)
-  wire _043_;
-  (* src = "cont1.v:29|<techmap.v>:260|<techmap.v>:203" *)
-  (* unused_bits = "3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31" *)
-  wire [31:0] _044_;
-  (* src = "cont1.v:30|cont1.v:29|<techmap.v>:260|<techmap.v>:203" *)
-  (* unused_bits = "3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31" *)
-  wire [31:0] _045_;
-  (* src = "cont1.v:29|<techmap.v>:260|<techmap.v>:221" *)
-  wire _046_;
-  (* src = "cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)
-  wire _047_;
-  (* src = "cont1.v:30|cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)
-  wire _048_;
+  wire [31:0] _21_;
   (* src = "cont1.v:13" *)
   input [3:0] D;
   (* src = "cont1.v:16" *)
@@ -99,202 +61,99 @@ module cont1(Q, RCO, clk, enb, modo, D);
   input enb;
   (* src = "cont1.v:14" *)
   input [1:0] modo;
-  assign _006_[0] = _005_[0] |(* src = "cont1.v:50" *)  _017_[1];
-  assign _006_[1] = _017_[2] |(* src = "cont1.v:50" *)  _017_[3];
-  assign _019_ = _006_[0] |(* src = "cont1.v:50" *)  _006_[1];
-  assign _007_[0] = _005_[0] |(* src = "cont1.v:65" *)  Q[1];
-  assign _020_ = _007_[0] |(* src = "cont1.v:65" *)  _007_[1];
-  assign _008_[0] = Q[0] |(* src = "cont1.v:65" *)  _017_[1];
-  assign _007_[1] = Q[2] |(* src = "cont1.v:65" *)  Q[3];
-  assign _021_ = _008_[0] |(* src = "cont1.v:65" *)  _007_[1];
-  assign _022_ = _018_[0] |(* src = "cont1.v:31|cont1.v:27" *)  _018_[1];
-  assign _023_ = modo[0] |(* src = "cont1.v:30|cont1.v:27" *)  _018_[1];
-  assign _024_ = _018_[0] |(* src = "cont1.v:29|cont1.v:27" *)  modo[1];
-  assign _009_[0] = _036_[1] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _036_[5];
-  assign _009_[1] = _036_[9] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _036_[13];
-  assign _037_[1] = _009_[0] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _009_[1];
-  assign _010_[0] = _036_[3] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _036_[7];
-  assign _010_[1] = _036_[11] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _036_[15];
-  assign _037_[3] = _010_[0] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _010_[1];
-  assign _011_[0] = _036_[2] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _036_[6];
-  assign _011_[1] = _036_[10] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _036_[14];
-  assign _037_[2] = _011_[0] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _011_[1];
-  assign _012_[0] = _036_[0] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _036_[4];
-  assign _012_[1] = _036_[8] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _036_[12];
-  assign _037_[0] = _012_[0] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:441" *)  _012_[1];
-  assign _013_[0] = _039_ |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:445" *)  _031_;
-  assign _013_[1] = _028_ |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:445" *)  _026_;
-  assign _043_ = _013_[0] |(* src = "cont1.v:31|cont1.v:27|<techmap.v>:445" *)  _013_[1];
-  assign _014_[0] = Q[0] |(* src = "cont1.v:65" *)  Q[1];
-  assign _015_ = _014_[0] |(* src = "cont1.v:65" *)  _007_[1];
-  assign _016_ = modo[0] |(* src = "cont1.v:28|cont1.v:27" *)  modo[1];
-  assign _025_ = ~(* src = "cont1.v:50" *) _019_;
-  assign _027_ = ~(* src = "cont1.v:65" *) _015_;
-  assign _029_ = ~(* src = "cont1.v:65" *) _020_;
-  assign _030_ = ~(* src = "cont1.v:65" *) _021_;
-  assign _039_ = ~(* src = "cont1.v:31|cont1.v:27" *) _022_;
-  assign _031_ = ~(* src = "cont1.v:30|cont1.v:27" *) _023_;
-  assign _028_ = ~(* src = "cont1.v:29|cont1.v:27" *) _024_;
-  assign _026_ = ~(* src = "cont1.v:28|cont1.v:27" *) _016_;
-  assign _032_ = _025_ &(* src = "cont1.v:50" *)  _026_;
-  assign _035_ = _034_ |(* src = "cont1.v:65" *)  _030_;
-  assign _033_ = _027_ &(* src = "cont1.v:56" *)  _028_;
-  assign _034_ = _027_ |(* src = "cont1.v:65" *)  _029_;
-  assign _004_ = _035_ &(* src = "cont1.v:65" *)  _031_;
-  assign _003_ = _033_ ? (* src = "cont1.v:56" *) 1'h1 : _004_;
-  assign _001_ = enb ? (* src = "cont1.v:24" *) _002_ : RCO;
-  assign _002_ = _032_ ? (* src = "cont1.v:50" *) 1'h1 : _003_;
-  assign _000_[0] = enb ? (* src = "cont1.v:24" *) _038_[0] : Q[0];
-  assign _000_[1] = enb ? (* src = "cont1.v:24" *) _038_[1] : Q[1];
-  assign _000_[2] = enb ? (* src = "cont1.v:24" *) _038_[2] : Q[2];
-  assign _000_[3] = enb ? (* src = "cont1.v:24" *) _038_[3] : Q[3];
-  assign _038_[0] = _043_ ? (* src = "cont1.v:31|cont1.v:27|<techmap.v>:445" *) _037_[0] : 1'hx;
-  assign _038_[1] = _043_ ? (* src = "cont1.v:31|cont1.v:27|<techmap.v>:445" *) _037_[1] : 1'hx;
-  assign _038_[2] = _043_ ? (* src = "cont1.v:31|cont1.v:27|<techmap.v>:445" *) _037_[2] : 1'hx;
-  assign _038_[3] = _043_ ? (* src = "cont1.v:31|cont1.v:27|<techmap.v>:445" *) _037_[3] : 1'hx;
-  (* src = "cont1.v:23" *)
+  assign _05_ = Q + (* src = "cont1.v:28" *) 32'd1;
+  assign _06_ = Q == (* src = "cont1.v:50" *) 4'hf;
+  assign _08_ = ! (* src = "cont1.v:65" *) Q;
+  assign _10_ = Q == (* src = "cont1.v:65" *) 4'h1;
+  assign _11_ = Q == (* src = "cont1.v:65" *) 4'h2;
+  assign _13_ = _06_ && (* src = "cont1.v:50" *) _07_;
+  assign _14_ = _08_ && (* src = "cont1.v:56" *) _09_;
+  assign _15_ = _17_ && (* src = "cont1.v:65" *) _12_;
+  assign _16_ = _08_ || (* src = "cont1.v:65" *) _10_;
+  assign _17_ = _16_ || (* src = "cont1.v:65" *) _11_;
   always @(posedge clk)
-      Q[0] <= _000_[0];
-  (* src = "cont1.v:23" *)
+      Q <= _00_;
   always @(posedge clk)
-      Q[1] <= _000_[1];
-  (* src = "cont1.v:23" *)
-  always @(posedge clk)
-      Q[2] <= _000_[2];
-  (* src = "cont1.v:23" *)
-  always @(posedge clk)
-      Q[3] <= _000_[3];
-  (* src = "cont1.v:23" *)
-  always @(posedge clk)
-      RCO <= _001_;
-  assign _042_[1] = Q[1] &(* src = "cont1.v:28|<techmap.v>:260|<techmap.v>:221" *)  Q[0];
-  assign _042_[2] = Q[2] &(* src = "cont1.v:28|<techmap.v>:260|<techmap.v>:229" *)  _042_[1];
-  assign _046_ = _017_[1] &(* src = "cont1.v:29|<techmap.v>:260|<techmap.v>:221" *)  Q[0];
-  assign _047_ = _017_[2] &(* src = "cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)  _044_[1];
-  assign _044_[1] = Q[1] |(* src = "cont1.v:29|<techmap.v>:260|<techmap.v>:221" *)  _046_;
-  assign _044_[2] = Q[2] |(* src = "cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)  _047_;
-  assign _048_ = _017_[2] &(* src = "cont1.v:30|cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)  _042_[1];
-  assign _045_[2] = Q[2] |(* src = "cont1.v:30|cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)  _048_;
-  assign _018_[1] = modo[1] ^(* src = "cont1.v:30|cont1.v:27" *)  1'h1;
-  assign _018_[0] = modo[0] ^(* src = "cont1.v:29|cont1.v:27" *)  1'h1;
-  assign _036_[12] = _005_[0] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _026_;
-  assign _036_[13] = _005_[1] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _026_;
-  assign _036_[14] = _005_[2] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _026_;
-  assign _036_[15] = _005_[3] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _026_;
-  assign _036_[8] = _005_[0] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _028_;
-  assign _036_[9] = _040_[1] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _028_;
-  assign _036_[10] = _040_[2] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _028_;
-  assign _036_[11] = _040_[3] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _028_;
-  assign _036_[4] = _005_[0] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _031_;
-  assign _036_[5] = _005_[1] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _031_;
-  assign _036_[6] = _041_[2] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _031_;
-  assign _036_[7] = _041_[3] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _031_;
-  assign _036_[0] = D[0] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _039_;
-  assign _036_[1] = D[1] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _039_;
-  assign _036_[2] = D[2] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _039_;
-  assign _036_[3] = D[3] &(* src = "cont1.v:31|cont1.v:27|<techmap.v>:434" *)  _039_;
-  assign _005_[1] = Q[1] ^(* src = "cont1.v:28|<techmap.v>:263" *)  Q[0];
-  assign _005_[2] = Q[2] ^(* src = "cont1.v:28|<techmap.v>:263" *)  _042_[1];
-  assign _005_[3] = Q[3] ^(* src = "cont1.v:28|<techmap.v>:263" *)  _042_[2];
-  assign _040_[1] = _017_[1] ^(* src = "cont1.v:29|<techmap.v>:263" *)  Q[0];
-  assign _040_[2] = _017_[2] ^(* src = "cont1.v:29|<techmap.v>:263" *)  _044_[1];
-  assign _040_[3] = _017_[3] ^(* src = "cont1.v:29|<techmap.v>:263" *)  _044_[2];
-  assign _017_[1] = Q[1] ^(* src = "cont1.v:29|<techmap.v>:262" *)  1'h1;
-  assign _017_[2] = Q[2] ^(* src = "cont1.v:29|<techmap.v>:262" *)  1'h1;
-  assign _005_[0] = Q[0] ^(* src = "cont1.v:30|cont1.v:29|<techmap.v>:263" *)  1'h1;
-  assign _041_[2] = _017_[2] ^(* src = "cont1.v:30|cont1.v:29|<techmap.v>:263" *)  _042_[1];
-  assign _041_[3] = _017_[3] ^(* src = "cont1.v:30|cont1.v:29|<techmap.v>:263" *)  _045_[2];
-  assign _017_[3] = Q[3] ^(* src = "cont1.v:30|cont1.v:29|<techmap.v>:262" *)  1'h1;
-  assign _005_[31:5] = 27'h0000000;
-  assign _008_[1] = _007_[1];
-  assign _014_[1] = _007_[1];
-  assign _017_[0] = _005_[0];
-  assign { _040_[30:4], _040_[0] } = { _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _040_[31], _005_[0] };
-  assign { _041_[30:4], _041_[1:0] } = { _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _041_[31], _005_[1:0] };
-  assign { _042_[31:3], _042_[0] } = { 28'h0000000, _005_[4], Q[0] };
-  assign { _044_[30:3], _044_[0] } = { _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], _044_[31], Q[0] };
-  assign { _045_[30:3], _045_[1:0] } = { _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _042_[1], Q[0] };
+      RCO <= _01_;
+  assign _02_ = _13_ ? (* full_case = 32'd1 *) (* src = "cont1.v:50" *) 1'h1 : _03_;
+  assign _01_ = enb ? (* full_case = 32'd1 *) (* src = "cont1.v:24" *) _02_ : RCO;
+  function [3:0] _36_;
+    input [3:0] a;
+    input [15:0] b;
+    input [3:0] s;
+    (* full_case = 32'd1 *)
+    (* src = "cont1.v:31|cont1.v:27" *)
+    (* parallel_case *)
+    casez (s)
+      4'b???1:
+        _36_ = b[3:0];
+      4'b??1?:
+        _36_ = b[7:4];
+      4'b?1??:
+        _36_ = b[11:8];
+      4'b1???:
+        _36_ = b[15:12];
+      default:
+        _36_ = a;
+    endcase
+  endfunction
+  assign _18_ = _36_(4'hx, { _05_[3:0], _20_[3:0], _21_[3:0], D }, { _07_, _09_, _12_, _19_ });
+  assign _19_ = modo == (* full_case = 32'd1 *) (* src = "cont1.v:31|cont1.v:27" *) 2'h3;
+  assign _12_ = modo == (* full_case = 32'd1 *) (* src = "cont1.v:30|cont1.v:27" *) 2'h2;
+  assign _09_ = modo == (* full_case = 32'd1 *) (* src = "cont1.v:29|cont1.v:27" *) 2'h1;
+  assign _07_ = ! (* full_case = 32'd1 *) (* src = "cont1.v:28|cont1.v:27" *) modo;
+  assign _00_ = enb ? (* full_case = 32'd1 *) (* src = "cont1.v:24" *) _18_ : Q;
+  assign _04_ = _15_ ? (* full_case = 32'd1 *) (* src = "cont1.v:65" *) 1'h1 : 1'h0;
+  assign _03_ = _14_ ? (* full_case = 32'd1 *) (* src = "cont1.v:56" *) 1'h1 : _04_;
+  assign _20_ = Q - (* src = "cont1.v:29" *) 32'd1;
+  assign _21_ = Q - (* src = "cont1.v:30" *) 32'd3;
 endmodule
 
 (* src = "cont2.v:1" *)
 module cont2(Q, RCO, clk, enb, modo, D);
   (* src = "cont2.v:27" *)
-  wire [3:0] _000_;
+  wire [3:0] _00_;
   (* src = "cont2.v:27" *)
-  wire _001_;
+  wire _01_;
   (* src = "cont2.v:27" *)
-  wire _002_;
+  wire _02_;
   (* src = "cont2.v:27" *)
-  wire _003_;
+  wire _03_;
   (* src = "cont2.v:27" *)
-  wire _004_;
+  wire _04_;
   (* src = "cont2.v:32" *)
-  (* unused_bits = "4" *)
-  wire [31:0] _005_;
-  wire _006_;
-  wire [1:0] _007_;
-  wire [1:0] _008_;
-  wire [1:0] _009_;
-  wire _010_;
-  wire _011_;
-  wire _012_;
-  wire _013_;
-  wire _014_;
-  wire [1:0] _015_;
-  wire _016_;
-  wire _017_;
-  wire [3:0] _018_;
-  wire [1:0] _019_;
-  wire [1:0] _020_;
-  wire _021_;
-  wire _022_;
-  wire _023_;
-  wire _024_;
-  wire _025_;
-  wire _026_;
+  (* unused_bits = "4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31" *)
+  wire [31:0] _05_;
+  wire _06_;
   (* src = "cont2.v:54" *)
-  wire _027_;
+  wire _07_;
   (* src = "cont2.v:54" *)
-  wire _028_;
+  wire _08_;
   (* src = "cont2.v:60" *)
-  wire _029_;
+  wire _09_;
   (* src = "cont2.v:60" *)
-  wire _030_;
+  wire _10_;
   (* src = "cont2.v:69" *)
-  wire _031_;
+  wire _11_;
   (* src = "cont2.v:69" *)
-  wire _032_;
+  wire _12_;
   (* src = "cont2.v:69" *)
-  wire _033_;
+  wire _13_;
   (* src = "cont2.v:54" *)
-  wire _034_;
+  wire _14_;
   (* src = "cont2.v:60" *)
-  wire _035_;
+  wire _15_;
   (* src = "cont2.v:69" *)
-  wire _036_;
+  wire _16_;
   (* src = "cont2.v:69" *)
-  wire _037_;
-  (* src = "cont2.v:35|cont2.v:31|<techmap.v>:432" *)
-  wire [11:0] _038_;
-  (* src = "cont2.v:35|cont2.v:31|<techmap.v>:428" *)
-  wire [3:0] _039_;
-  wire [3:0] _040_;
-  wire _041_;
+  wire _17_;
+  (* src = "cont2.v:69" *)
+  wire _18_;
+  wire [3:0] _19_;
+  wire _20_;
   (* src = "cont2.v:33" *)
   (* unused_bits = "4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31" *)
-  wire [31:0] _042_;
-  (* src = "cont2.v:32|cont1.v:28|<techmap.v>:260|<techmap.v>:203" *)
-  (* unused_bits = "3" *)
-  wire [31:0] _043_;
-  (* src = "cont2.v:35|cont2.v:31|<techmap.v>:445" *)
-  wire _044_;
-  (* src = "cont2.v:34|cont1.v:29|<techmap.v>:260|<techmap.v>:203" *)
-  (* unused_bits = "3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31" *)
-  wire [31:0] _045_;
-  (* src = "cont2.v:34|cont1.v:29|<techmap.v>:260|<techmap.v>:221" *)
-  wire _046_;
-  (* src = "cont2.v:34|cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)
-  wire _047_;
+  wire [31:0] _21_;
   (* src = "cont2.v:13" *)
   input [3:0] D;
   (* src = "cont2.v:16" *)
@@ -310,116 +169,55 @@ module cont2(Q, RCO, clk, enb, modo, D);
   input enb;
   (* src = "cont2.v:14" *)
   input [1:0] modo;
-  assign _007_[0] = _005_[0] |(* src = "cont2.v:54" *)  _018_[1];
-  assign _007_[1] = _018_[2] |(* src = "cont2.v:54" *)  _018_[3];
-  assign _021_ = _007_[0] |(* src = "cont2.v:54" *)  _007_[1];
-  assign _008_[0] = _005_[0] |(* src = "cont2.v:69" *)  Q[1];
-  assign _022_ = _008_[0] |(* src = "cont2.v:69" *)  _008_[1];
-  assign _009_[0] = Q[0] |(* src = "cont2.v:69" *)  _018_[1];
-  assign _008_[1] = Q[2] |(* src = "cont2.v:69" *)  Q[3];
-  assign _023_ = _009_[0] |(* src = "cont2.v:69" *)  _008_[1];
-  assign _006_ = _033_ | _030_;
-  assign _024_ = _019_[0] |(* src = "cont2.v:33|cont2.v:31" *)  modo[1];
-  assign _025_ = _019_[0] |(* src = "cont2.v:35|cont2.v:31" *)  _020_[1];
-  assign _026_ = modo[0] |(* src = "cont2.v:34|cont2.v:31" *)  _020_[1];
-  assign _010_ = _038_[3] |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:441" *)  _038_[7];
-  assign _039_[3] = _010_ |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:441" *)  _038_[11];
-  assign _011_ = _038_[2] |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:441" *)  _038_[6];
-  assign _039_[2] = _011_ |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:441" *)  _038_[10];
-  assign _012_ = _038_[1] |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:441" *)  _038_[5];
-  assign _039_[1] = _012_ |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:441" *)  _038_[9];
-  assign _013_ = _038_[0] |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:441" *)  _038_[4];
-  assign _039_[0] = _013_ |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:441" *)  _038_[8];
-  assign _014_ = _041_ |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:445" *)  _006_;
-  assign _044_ = _014_ |(* src = "cont2.v:35|cont2.v:31|<techmap.v>:445" *)  _028_;
-  assign _015_[0] = Q[0] |(* src = "cont2.v:69" *)  Q[1];
-  assign _016_ = _015_[0] |(* src = "cont2.v:69" *)  _008_[1];
-  assign _017_ = modo[0] |(* src = "cont2.v:32|cont2.v:31" *)  modo[1];
-  assign _027_ = ~(* src = "cont2.v:54" *) _021_;
-  assign _029_ = ~(* src = "cont2.v:69" *) _016_;
-  assign _031_ = ~(* src = "cont2.v:69" *) _022_;
-  assign _032_ = ~(* src = "cont2.v:69" *) _023_;
-  assign _030_ = ~(* src = "cont2.v:33|cont2.v:31" *) _024_;
-  assign _041_ = ~(* src = "cont2.v:35|cont2.v:31" *) _025_;
-  assign _033_ = ~(* src = "cont2.v:34|cont2.v:31" *) _026_;
-  assign _028_ = ~(* src = "cont2.v:32|cont2.v:31" *) _017_;
-  assign _036_ = _029_ |(* src = "cont2.v:69" *)  _031_;
-  assign _034_ = _027_ &(* src = "cont2.v:54" *)  _028_;
-  assign _035_ = _029_ &(* src = "cont2.v:60" *)  _030_;
-  assign _037_ = _036_ |(* src = "cont2.v:69" *)  _032_;
-  assign _004_ = _037_ &(* src = "cont2.v:69" *)  _033_;
-  assign _003_ = _035_ ? (* src = "cont2.v:60" *) 1'h1 : _004_;
-  assign _001_ = enb ? (* src = "cont2.v:28" *) _002_ : RCO;
-  assign _002_ = _034_ ? (* src = "cont2.v:54" *) 1'h1 : _003_;
-  assign _000_[0] = enb ? (* src = "cont2.v:28" *) _040_[0] : Q[0];
-  assign _000_[1] = enb ? (* src = "cont2.v:28" *) _040_[1] : Q[1];
-  assign _000_[2] = enb ? (* src = "cont2.v:28" *) _040_[2] : Q[2];
-  assign _000_[3] = enb ? (* src = "cont2.v:28" *) _040_[3] : Q[3];
-  assign _040_[0] = _044_ ? (* src = "cont2.v:35|cont2.v:31|<techmap.v>:445" *) _039_[0] : 1'hx;
-  assign _040_[1] = _044_ ? (* src = "cont2.v:35|cont2.v:31|<techmap.v>:445" *) _039_[1] : 1'hx;
-  assign _040_[2] = _044_ ? (* src = "cont2.v:35|cont2.v:31|<techmap.v>:445" *) _039_[2] : 1'hx;
-  assign _040_[3] = _044_ ? (* src = "cont2.v:35|cont2.v:31|<techmap.v>:445" *) _039_[3] : 1'hx;
-  (* src = "cont2.v:27" *)
+  assign _05_ = Q + (* src = "cont2.v:32" *) 32'd1;
+  assign _06_ = | { _10_, _13_ };
+  assign _07_ = Q == (* src = "cont2.v:54" *) 4'hf;
+  assign _09_ = ! (* src = "cont2.v:69" *) Q;
+  assign _11_ = Q == (* src = "cont2.v:69" *) 4'h1;
+  assign _12_ = Q == (* src = "cont2.v:69" *) 4'h2;
+  assign _14_ = _07_ && (* src = "cont2.v:54" *) _08_;
+  assign _15_ = _09_ && (* src = "cont2.v:60" *) _10_;
+  assign _16_ = _18_ && (* src = "cont2.v:69" *) _13_;
+  assign _17_ = _09_ || (* src = "cont2.v:69" *) _11_;
+  assign _18_ = _17_ || (* src = "cont2.v:69" *) _12_;
   always @(posedge clk)
-      Q[0] <= _000_[0];
-  (* src = "cont2.v:27" *)
+      Q <= _00_;
   always @(posedge clk)
-      Q[1] <= _000_[1];
-  (* src = "cont2.v:27" *)
-  always @(posedge clk)
-      Q[2] <= _000_[2];
-  (* src = "cont2.v:27" *)
-  always @(posedge clk)
-      Q[3] <= _000_[3];
-  (* src = "cont2.v:27" *)
-  always @(posedge clk)
-      RCO <= _001_;
-  assign _019_[0] = modo[0] ^(* src = "cont2.v:35|cont2.v:31" *)  1'h1;
-  assign _020_[1] = modo[1] ^(* src = "cont2.v:34|cont2.v:31" *)  1'h1;
-  assign _038_[8] = _005_[0] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _028_;
-  assign _038_[9] = _005_[1] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _028_;
-  assign _038_[10] = _005_[2] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _028_;
-  assign _038_[11] = _005_[3] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _028_;
-  assign _038_[4] = _005_[0] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _006_;
-  assign _038_[5] = _042_[1] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _006_;
-  assign _038_[6] = _042_[2] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _006_;
-  assign _038_[7] = _042_[3] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _006_;
-  assign _038_[0] = D[0] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _041_;
-  assign _038_[1] = D[1] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _041_;
-  assign _038_[2] = D[2] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _041_;
-  assign _038_[3] = D[3] &(* src = "cont2.v:35|cont2.v:31|<techmap.v>:434" *)  _041_;
-  assign _018_[1] = Q[1] ^(* src = "cont2.v:34|cont1.v:29|<techmap.v>:262" *)  1'h1;
-  assign _018_[2] = Q[2] ^(* src = "cont2.v:34|cont1.v:29|<techmap.v>:262" *)  1'h1;
-  assign _018_[3] = Q[3] ^(* src = "cont2.v:34|cont1.v:29|<techmap.v>:262" *)  1'h1;
-  assign _005_[0] = Q[0] ^(* src = "cont2.v:34|cont1.v:29|<techmap.v>:263" *)  1'h1;
-  assign _042_[1] = _018_[1] ^(* src = "cont2.v:34|cont1.v:29|<techmap.v>:263" *)  Q[0];
-  assign _042_[2] = _018_[2] ^(* src = "cont2.v:34|cont1.v:29|<techmap.v>:263" *)  _045_[1];
-  assign _042_[3] = _018_[3] ^(* src = "cont2.v:34|cont1.v:29|<techmap.v>:263" *)  _045_[2];
-  assign _005_[1] = Q[1] ^(* src = "cont2.v:32|cont1.v:28|<techmap.v>:263" *)  Q[0];
-  assign _005_[2] = Q[2] ^(* src = "cont2.v:32|cont1.v:28|<techmap.v>:263" *)  _043_[1];
-  assign _005_[3] = Q[3] ^(* src = "cont2.v:32|cont1.v:28|<techmap.v>:263" *)  _043_[2];
-  assign _046_ = _018_[1] &(* src = "cont2.v:34|cont1.v:29|<techmap.v>:260|<techmap.v>:221" *)  Q[0];
-  assign _047_ = _018_[2] &(* src = "cont2.v:34|cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)  _045_[1];
-  assign _045_[1] = Q[1] |(* src = "cont2.v:34|cont1.v:29|<techmap.v>:260|<techmap.v>:221" *)  _046_;
-  assign _045_[2] = Q[2] |(* src = "cont2.v:34|cont1.v:29|<techmap.v>:260|<techmap.v>:229" *)  _047_;
-  assign _043_[1] = Q[1] &(* src = "cont2.v:32|cont1.v:28|<techmap.v>:260|<techmap.v>:221" *)  Q[0];
-  assign _043_[2] = Q[2] &(* src = "cont2.v:32|cont1.v:28|<techmap.v>:260|<techmap.v>:229" *)  _043_[1];
-  assign _005_[31:5] = 27'h0000000;
-  assign _009_[1] = _008_[1];
-  assign _015_[1] = _008_[1];
-  assign _018_[0] = _005_[0];
-  assign _019_[1] = modo[1];
-  assign _020_[0] = _019_[0];
-  assign { _042_[30:4], _042_[0] } = { _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _042_[31], _005_[0] };
-  assign { _043_[31:3], _043_[0] } = { 28'h0000000, _005_[4], Q[0] };
-  assign { _045_[30:3], _045_[0] } = { _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], _045_[31], Q[0] };
+      RCO <= _01_;
+  assign _04_ = _16_ ? (* full_case = 32'd1 *) (* src = "cont2.v:69" *) 1'h1 : 1'h0;
+  assign _03_ = _15_ ? (* full_case = 32'd1 *) (* src = "cont2.v:60" *) 1'h1 : _04_;
+  assign _02_ = _14_ ? (* full_case = 32'd1 *) (* src = "cont2.v:54" *) 1'h1 : _03_;
+  assign _01_ = enb ? (* full_case = 32'd1 *) (* src = "cont2.v:28" *) _02_ : RCO;
+  function [3:0] _39_;
+    input [3:0] a;
+    input [11:0] b;
+    input [2:0] s;
+    (* full_case = 32'd1 *)
+    (* src = "cont2.v:35|cont2.v:31" *)
+    (* parallel_case *)
+    casez (s)
+      3'b??1:
+        _39_ = b[3:0];
+      3'b?1?:
+        _39_ = b[7:4];
+      3'b1??:
+        _39_ = b[11:8];
+      default:
+        _39_ = a;
+    endcase
+  endfunction
+  assign _19_ = _39_(4'hx, { _05_[3:0], _21_[3:0], D }, { _08_, _06_, _20_ });
+  assign _20_ = modo == (* full_case = 32'd1 *) (* src = "cont2.v:35|cont2.v:31" *) 2'h3;
+  assign _13_ = modo == (* full_case = 32'd1 *) (* src = "cont2.v:34|cont2.v:31" *) 2'h2;
+  assign _10_ = modo == (* full_case = 32'd1 *) (* src = "cont2.v:33|cont2.v:31" *) 2'h1;
+  assign _08_ = ! (* full_case = 32'd1 *) (* src = "cont2.v:32|cont2.v:31" *) modo;
+  assign _00_ = enb ? (* full_case = 32'd1 *) (* src = "cont2.v:28" *) _19_ : Q;
+  assign _21_ = Q - (* src = "cont2.v:34" *) 32'd1;
 endmodule
 
 (* top =  1  *)
 (* src = "contador16bits.v:4" *)
 module contador16bits(clk, enb, D, modo, Q, RCO);
-  wire [1:0] _0_;
-  wire _1_;
   (* src = "contador16bits.v:9" *)
   input [15:0] D;
   (* src = "contador16bits.v:11" *)
@@ -438,16 +236,16 @@ module contador16bits(clk, enb, D, modo, Q, RCO);
   input enb;
   (* src = "contador16bits.v:10" *)
   input [1:0] modo;
+  (* src = "contador16bits.v:21" *)
+  wire modo1;
   (* src = "contador16bits.v:16" *)
   wire [15:0] q;
   (* src = "contador16bits.v:17" *)
   wire [3:0] rco1;
-  assign _1_ = _0_[0] |(* src = "contador16bits.v:26" *)  _0_[1];
-  assign a1 = _1_ ? (* src = "contador16bits.v:27" *) rco1[0] : clk;
-  assign a2 = _1_ ? (* src = "contador16bits.v:28" *) rco1[1] : clk;
-  assign a3 = _1_ ? (* src = "contador16bits.v:29" *) rco1[2] : clk;
-  assign _0_[0] = modo[0] ^(* src = "contador16bits.v:26" *)  1'h1;
-  assign _0_[1] = modo[1] ^(* src = "contador16bits.v:26" *)  1'h1;
+  assign modo1 = modo == (* src = "contador16bits.v:26" *) 2'h3;
+  assign a1 = modo1 ? (* src = "contador16bits.v:27" *) clk : rco1[0];
+  assign a2 = modo1 ? (* src = "contador16bits.v:28" *) clk : rco1[1];
+  assign a3 = modo1 ? (* src = "contador16bits.v:29" *) clk : rco1[2];
   (* module_not_derived = 32'd1 *)
   (* src = "contador16bits.v:31" *)
   cont1 U0 (
