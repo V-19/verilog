@@ -1,0 +1,137 @@
+$date
+	Tue Oct  4 17:52:55 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tarea3testbench $end
+$var wire 1 ! clk $end
+$var wire 32 " T_DATA [31:0] $end
+$var wire 1 # RESET $end
+$var wire 16 $ RD_DATA [15:0] $end
+$var wire 1 % MDIO_START $end
+$var wire 1 & MDIO_OUT $end
+$var wire 1 ' MDIO_OE $end
+$var wire 1 ( MDIO_IN $end
+$var wire 1 ) MDIO $end
+$var wire 1 * MDC $end
+$var wire 1 + DATA_RDY $end
+$scope module M0 $end
+$var wire 1 ! clk $end
+$var wire 32 , T_DATA [31:0] $end
+$var wire 1 # RESET $end
+$var wire 1 % MDIO_START $end
+$var wire 1 ( MDIO_IN $end
+$var wire 1 ) MDIO $end
+$var reg 1 + DATA_RDY $end
+$var reg 1 * MDC $end
+$var reg 1 ' MDIO_OE $end
+$var reg 1 & MDIO_OUT $end
+$var reg 16 - RD_DATA [15:0] $end
+$var reg 1 . modo $end
+$var reg 6 / nxt_state [5:0] $end
+$var reg 6 0 state [5:0] $end
+$var integer 32 1 a [31:0] $end
+$var integer 32 2 i [31:0] $end
+$var integer 32 3 j [31:0] $end
+$upscope $end
+$scope module senales $end
+$var wire 1 + DATA_RDY $end
+$var wire 1 * MDC $end
+$var wire 1 ' MDIO_OE $end
+$var wire 1 & MDIO_OUT $end
+$var wire 16 4 RD_DATA [15:0] $end
+$var reg 1 ) MDIO $end
+$var reg 1 ( MDIO_IN $end
+$var reg 1 % MDIO_START $end
+$var reg 1 # RESET $end
+$var reg 32 5 T_DATA [31:0] $end
+$var reg 1 ! clk $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000100010000001000010001000000 5
+bx 4
+b11111 3
+b11111 2
+b0 1
+bx 0
+b1 /
+x.
+bx -
+b10000100010000001000010001000000 ,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+bx $
+0#
+b10000100010000001000010001000000 "
+0!
+$end
+#1
+0*
+b1 0
+0+
+1!
+#2
+0!
+1#
+#3
+1*
+1!
+#4
+0!
+#5
+0*
+1!
+#6
+0!
+#7
+1*
+1!
+#8
+0!
+#9
+0*
+1!
+#10
+0!
+#11
+1*
+1!
+#12
+0!
+#13
+0*
+1!
+#14
+0!
+#15
+1*
+1!
+#16
+0!
+#17
+0*
+1!
+#18
+0!
+#19
+1*
+1!
+#20
+0!
+#21
+0*
+1!
+#22
+0!

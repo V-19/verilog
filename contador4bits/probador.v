@@ -16,9 +16,9 @@
  modo = 2'b0;
  D = 4'b0;
  #5 enb = 2'b1;
- #5 D = 4'b0000;
+ #5 D = 4'b1111;
  #5 modo = 2'b11;
- #5 modo = 2'b00;
+ #5 modo = 2'b01;
  #150 $finish;
  end
  //el clk se invierte cada 5 unidades de tiempo 
