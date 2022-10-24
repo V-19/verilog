@@ -3,7 +3,7 @@
 `include "I2C.v"
 `include "probador.v"
 
-module tarea3testbench;
+module tarea4testbench;
 
 wire clk;
 wire SDA_IN;

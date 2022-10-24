@@ -201,7 +201,9 @@ always @(*)begin
 	case(state)//un case para pasar de estado en estado
 		
 		6'b000001: begin//1
-			if(SCL==1 && c==0) nxt_state=6'b000010;
+			if(SCL==1 && c==0) begin nxt_state=6'b000010;
+					SDA_OE=1;
+			end
 			else nxt_state=6'b000001;
 		end
 		
